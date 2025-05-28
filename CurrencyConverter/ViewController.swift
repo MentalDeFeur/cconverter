@@ -40,6 +40,7 @@ class ViewController: UIViewController {
     
     @IBAction func btn_reset(_ sender: Any) {
         saisir_valeur.text = "0"
+        dollars_aff.text = "Valeur convertie en dollars : 0"
     }
     
     
